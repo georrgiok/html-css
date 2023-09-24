@@ -1,0 +1,89 @@
+.registration {
+  display: flex;
+  flex-direction: row;
+  gap: 128px;
+  padding-bottom: 64px;
+  margin: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.registration__info {
+  max-width: 400px;
+}
+.registration__text {
+  color: #000;
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+.registration__text-img {
+  width: 20px;
+  height: 16px;
+  margin-right: 23px;
+}
+
+.questionnaire__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.questionnaire__input-title {
+  color: #222;
+  font-size: 16px;
+  font-weight: 300;
+}
+.questionnaire__input {
+  width: 358.986px;
+  height: 44px;
+  padding: 13px 16px 16px 17px;
+  border: 1px solid #a4a4a4;
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+}
+.questionnaire__radio-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: #000;
+  font-size: 11px;
+  font-weight: 300;
+}
+.questionnaire__radio {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.questionnaire__input-help {
+  width: 359px;
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 19px;
+}
+.questionnaire__input-button {
+  width: 167px;
+  height: 50px;
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: 0.5s;
+}
+.questionnaire__input-button path {
+  transition: 0.5s;
+}
+.questionnaire__input-button:hover {
+  background-color: #fff;
+  color: var(--color-secondary);
+}
+.questionnaire__input-button:hover path {
+  fill: var(--color-secondary);
+}/*# sourceMappingURL=registration.css.map */

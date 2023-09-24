@@ -1,0 +1,105 @@
+$colorSelectSite: var(--color-secondary);
+
+.registration {
+	display: flex;
+	flex-direction: row;
+	gap: 128px;
+	padding-bottom: 64px;
+	margin: 20px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	&__info {
+		max-width: 400px;
+	}
+
+	&__text {
+		color: #000;
+		font-size: 24px;
+		font-weight: 300;
+		display: block;
+		flex-direction: row;
+		margin-bottom: 16px;
+
+		&-img {
+			width: 20px;
+			height: 16px;
+			margin-right: 23px;
+		}
+	}
+}
+
+.questionnaire {
+	&__form {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	&__input-title {
+		color: #222;
+		font-size: 16px;
+		font-weight: 300;
+	}
+
+	&__input {
+		width: 358.986px;
+		height: 44px;
+		padding: 13px 16px 16px 17px;
+		border: 1px solid #a4a4a4;
+		color: #b1b1b1;
+		font-size: 13px;
+		font-weight: 300;
+	}
+
+	&__radio-box {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		color: #000;
+		font-size: 11px;
+		font-weight: 300;
+	}
+
+	&__radio {
+		display: flex;
+		gap: 15px;
+		align-items: center;
+	}
+
+	&__input-help {
+		width: 359px;
+		color: #b1b1b1;
+		font-size: 13px;
+		font-weight: 300;
+		margin-bottom: 19px;
+	}
+
+	&__input-button {
+		width: 167px;
+		height: 50px;
+		background-color: $colorSelectSite;
+		border: 1px solid $colorSelectSite;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		transition: 0.5s;
+
+		& path {
+			transition: 0.5s;
+		}
+
+		&:hover {
+			background-color: #fff;
+			color: $colorSelectSite;
+		}
+
+		&:hover path {
+			fill: $colorSelectSite;
+		}
+	}
+}
